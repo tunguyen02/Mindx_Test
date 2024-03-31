@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img {
+    border: 1px solid rgba(0, 0, 0, 0.492);
+    width: 100px;
+    height: 100px;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.choose img {
+    padding: 20px;
+}
+
+.choose .option {
+    position: relative;
+    cursor: pointer;
+}
+
+.choose .option .point {
+    position: absolute;
+    top: 0;
+    left: 14px;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgba(4, 143, 57, 0.674);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.click {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.final .click {
+    display: flex;
+    align-self: flex-start;
+}
+
+.option {
+    display: block;
+    transition: all .3s ease;
+}
+
+.option:hover {
+    transform: scale(1.1);
+}
